@@ -45,28 +45,6 @@ $(document).ready(function(){
               slidesToScroll: 1
             }
           }
-          // You can unslick at a given breakpoint now by adding:
-          // settings: "unslick"
-          // instead of a settings object
         ]
       });
 });
-
-
-class Carousel{
-    constructor (element, options = {}){
-        /**
-         * @param {HTMLElement}elements
-         * @param {Object}options
-         * @param {Object}options.slidesToScroll Nombre d'élements à faire défiler
-         * @param {Object}options.slidesVisible Nombre d'élements à afficher
-         */
-    }
-}
-
-document.addEventListener('DOMContentLoaded',function(){
-    new Carousel(document.querySelector('diapo'),{
-        slideToScroll: 1,
-        slidesVisible: 3
-    });
-})

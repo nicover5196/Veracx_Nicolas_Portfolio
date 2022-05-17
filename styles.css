@@ -100,9 +100,22 @@ header ul li a:hover{
     border-radius: 10px;
     padding:15px;
 }
+.bar_title_serv{
+    background:rgb(241, 24, 102);
+    display:block;
+    height: 2px;
+    border-radius: 3px;
+    width:9%;
+    margin-left:40px;
+}
+.h2_serv{
+    margin-left:40px;
+    margin-top:100px;
+}
 .card_devis{
     display:flex;
     justify-content: space-around;
+    margin-top: 40px;
 }
 .card{
     height:600px;
@@ -214,6 +227,7 @@ svg{
     color:white;
     list-style: none;
     padding:0px;
+    margin-bottom: 100px;
 }
 .skills li{
     margin: 20px 0;
