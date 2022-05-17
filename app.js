@@ -17,16 +17,17 @@ new Typewriter (txtAnim,{
 $(document).ready(function(){
     $('.diapo').slick({
         dots: true,
-        infinite: false,
+        infinite: true,
+        arrows:true,
         speed: 300,
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 2,
+        slidesToScroll: 1,
         responsive: [
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
+              slidesToShow: 2,
+              slidesToScroll: 1,
               infinite: true,
               dots: true
             }
@@ -34,8 +35,8 @@ $(document).ready(function(){
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2
+              slidesToShow: 1,
+              slidesToScroll: 1
             }
           },
           {
