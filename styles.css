@@ -12,7 +12,6 @@
 }
 body{
     background:#000;
-    min-height: 200vh;
     color:#fff;
     background-image: url("img/pexels-hasan-albari-1229861.jpg");
     background-size: 100%;
@@ -105,24 +104,18 @@ header ul li a:hover{
     border-radius: 10px;
     padding:15px;
 }
-.bar_title_serv{
-    background:rgb(241, 24, 102);
-    display:block;
-    height: 2px;
-    border-radius: 3px;
-    width:9%;
-}
-.h2_serv{
-    margin-top:100px;
+.h2_size{
+    font-size: 1.8em;
 }
 .card_devis{
     display:flex;
     justify-content: space-around;
     margin-top: 40px;
+    margin-bottom:40px;
 }
 .card{
-    height:600px;
-    width: 400px;
+    height:500px;
+    width: 300px;
     background: rgba(253, 253, 253, 0.1);
     backdrop-filter: blur(15px);
     border-radius: 15px;
@@ -193,8 +186,6 @@ svg{
     text-decoration: none;
 }
 .card .content a{
-    text-transform: uppercase;
-    font-size: 20px;
     font-weight: 500;
     background: linear-gradient(to right, rgb(251, 81, 30), rgb(241, 24, 102));
     width:200px;
@@ -242,20 +233,6 @@ svg{
     height: 3px;
     border-radius: 3px;
     box-shadow: 0 0 10px #2187e7b3;
-}
-.bar_title_exp{
-    background:rgb(251, 81, 30);
-    display:block;
-    height: 2px;
-    border-radius: 3px;
-    width:20%;
-}
-.bar_title_for{
-    background:rgb(241, 24, 102);
-    display:block;
-    height: 2px;
-    border-radius: 3px;
-    width:20%;
 }
 .bar span{
     height:3px;
@@ -370,13 +347,6 @@ svg{
         width:70%;
     }
 }
-.bar_title_proj{
-    background:rgb(251, 81, 30);
-    display:block;
-    height: 2px;
-    border-radius: 3px;
-    width:7%;
-}
 .elements{
     padding: 0 20px;
 }
@@ -385,12 +355,98 @@ svg{
 }
 .element img{
     width:100%;
+    height: 350px;
 }
 figcaption{
     position: absolute;
-    bottom:5%;
-    left:5%;
+    bottom: 5%;
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    justify-content: center;
 }
+figcaption a{
+    text-decoration: none;
+}
+figcaption .button:hover{
+    color:red;
+}
+.button {
+    background: rgba(253, 253, 253, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    backdrop-filter: blur(5px);
+    color: #000;
+    font-weight: 600;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  }
 .diapo_container{
     padding:40px;
+}
+footer{
+    margin: 10px;
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+footer img{
+    color:#fff;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(1px);
+    border-radius: 100%;
+    filter: drop-shadow(30px 2px 2px rgba(255,255,255,0.1));
+    
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    display:flex;
+    align-items: center;
+    gap:15px;
+}
+
+/* Page Services */
+
+.card_services{
+    height:500px;
+    background: rgba(253, 253, 253, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    border-top: 1px solid rgb(125,125,125);
+    border-left: 1px solid rgb(125,125,125);
+    color:#fff;
+}
+.content_services{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top:40px;
+    padding:0 20px;
+    position: relative;
+    overflow: hidden;
+}
+.list_vitrine{
+    margin:80px;
+    display:flex;
+    gap: 30px;
+}
+.list_blog{
+    margin:20px;
+}
+.button-site{
+    padding:10px;
+    background: linear-gradient(to right, rgb(251, 81, 30), rgb(241, 24, 102));
+    border-radius: 15px;
+    color:#fff;
+    margin:20px;
+    text-decoration: none;
+}
+.button-site:hover{
+    box-shadow: #000 1px 1px ;
+    transform: scale(0.950);
+    transition-duration: 0.2s;
 }

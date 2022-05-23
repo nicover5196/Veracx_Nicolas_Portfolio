@@ -1,0 +1,9 @@
+{
+    "name": "nicolas/projet_veracx-web_2",
+    "description": "Portfolio",
+    "type": "project",
+    "minimum-stability": "stable",
+    "require": {
+        "mailjet/mailjet-apiv3-php": "^1.5"
+    }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veracx Web</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/233f556d4c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-main">
+        <header>
+            <a href="index.html" class="logo">Veracx Web</a>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+        </header>
+        <section class="banner"></section>
+        <div class="card_services">
+            <div class="content_services">
+                <h2>Sites Vitrine</h2>
+                <p>La meilleure façon d'afficher son entreprise</p>
+                <div class="list_vitrine">
+                    <ul>
+                        <li>Version desktop & mobile</li>
+                        <li>Un menu de navigation</li>
+                        <li>Des liens vers vos réseaux</li>
+                        <li>Un design pour refléter vos couleurs</li>
+                        <li>5 pages</li>
+                    </ul>
+                    <ul>
+                        <li>Afficher vos horaires</li>
+                        <li>Démarquer vous des autres</li>
+                        <li>Meilleure réferencement</li>
+                        <li>Afficher vos produits</li>
+                        <li>Conseil & aide pour votre hebergement</li>
+                    </ul>
+                </div>
+                <p>À partir de 299.99€</p>
+                <a class="button-site" href="contact.php">Contacter le service</a>
+            </div>
+        </div>
+        <footer>
+                <span>Copyright © 2022 - Tous droits réservés.</span>
+                <a href="https://github.com/nicover5196">Github<img src="img/GitHub-Mark-32px.png" alt="logo GitHub"/></a>
+        </footer>
+    </div>
+    <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+    })
+    </script>
+</body>
+</html>
